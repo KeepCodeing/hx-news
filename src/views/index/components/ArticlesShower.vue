@@ -44,7 +44,7 @@ import { defineComponent, reactive, ref } from "vue";
 
 export default defineComponent({
   setup() {
-    const currentBoard = ref(0);
+    const currentBoard = ref(1);
     const titleList = ["支部概况", "支部活动", "党员风采"];
     const indexMessage = reactive([
       { title: "支部概况", list: [{ title: "" }] },
